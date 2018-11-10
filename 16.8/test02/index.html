@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		.login {
+			padding: 10px;
+			max-width: 400px;
+			margin: 20px auto;
+		}
+		.form-group {
+			display: block;
+			padding: 10px auto;
+		}
+		.btn {
+			display: block;
+			max-width: 400px;
+			margin: 10px auto;
+		}
+	</style>
+	<div>
+		<form action="login.html" class="login">
+			<div class="form-group">
+				<label>账号</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>密码</label>
+				<input type="password" class="form-control">
+			</div>
+			<div class="form-group">
+				<button class="btn btn-warning btn-block">登录</button>
+			</div>
+		</form>
+		<div>
+			<button id="login" class="btn btn-danger btn-block">点我</button>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

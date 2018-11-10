@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<style>
+		.container {
+			padding: 20px;
+			max-width: 500px;
+		}
+		.btn {
+			margin-top: 20px;
+		}
+	</style>
+	<div>
+		<form id="login" action="submit.html">
+			<div class="container">
+				<label>账号</label>
+				<input type="text" class="form-control">
+				<label>密码</label>
+				<input type="password" class="form-control">
+				<button class="btn btn-primary btn-block">登录</button>
+			</div>
+		</form>
+		<div class="container">
+			<button id="trigger" class="btn btn-warning btn-block">这也可以登录</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
